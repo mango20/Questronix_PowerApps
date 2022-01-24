@@ -1,0 +1,131 @@
+Screen1 As screen:
+    Fill: =RGBA(230, 230, 230, 1)
+
+    Button7 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 0.5)
+        Height: =719
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Text: =""
+        Width: =900
+        X: =436
+        Y: =25
+        ZIndex: =1
+
+    Button2 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =719
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =50
+        RadiusTopLeft: =0
+        RadiusTopRight: =50
+        Text: =""
+        Width: =400
+        Y: =25
+        ZIndex: =2
+
+    Button3 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 0.5)
+        Height: =100
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =50
+        RadiusTopLeft: =0
+        RadiusTopRight: |
+            =50
+        Text: =""
+        Width: =373
+        Y: =52
+        ZIndex: =3
+
+    Image1 As image:
+        Height: =65
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =65
+        X: =15
+        Y: =69
+        ZIndex: =4
+
+    Label1 As label:
+        AutoHeight: =true
+        FontWeight: =FontWeight.Semibold
+        Height: =23
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =14
+        Text: ="FIRST NAME MI. LASTNAME"
+        Width: =250
+        X: =94
+        Y: =69
+        ZIndex: =5
+
+    Label1_1 As label:
+        AutoHeight: =true
+        Height: =50
+        Italic: =true
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =12
+        Text: ="Software and Applications Administrator"
+        Width: =240
+        X: =99
+        Y: =95
+        ZIndex: =6
+
+    TextInput1 As text:
+        BorderColor: =RGBA(179, 179, 179, 1)
+        Default: =""
+        HintText: ="Search..."
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =300
+        X: =486
+        Y: =60
+        ZIndex: =7
+
+    Gallery2 As gallery.galleryVertical:
+        Height: =623
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =25
+        TemplateSize: =175
+        Width: =800
+        X: =486
+        Y: =121
+        ZIndex: =8
+
+        Button5 As button:
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =175
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            Text: =""
+            Width: =750
+            ZIndex: =1
+
+    Icon1 As icon.Add:
+        Height: =40
+        Icon: =Icon.Add
+        Width: =40
+        X: =1246
+        Y: =60
+        ZIndex: =9
+
