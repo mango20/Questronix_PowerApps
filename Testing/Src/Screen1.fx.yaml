@@ -129,3 +129,11 @@ Screen1 As screen:
         Y: =60
         ZIndex: =9
 
+    Icon2 As icon.ChevronRight:
+        Height: =50
+        Icon: =Icon.ChevronRight
+        Width: =50
+        X: =1274
+        Y: =407
+        ZIndex: =10
+

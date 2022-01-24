@@ -9,6 +9,7 @@
     "Gallery2": 12,
     "galleryTemplate2": 13,
     "Icon1": 8,
+    "Icon2": 15,
     "Image1": 9,
     "Label1": 10,
     "Label1_1": 11,
@@ -16,7 +17,7 @@
     "TextInput1": 7
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/24/2022 02:37:25",
+  "HeaderLastSavedDateTimeUTC": "01/24/2022 02:41:38",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -34,10 +35,10 @@
   "OrderXMLTemplate": {
     "button": 0,
     "gallery": 5,
-    "icon": 2,
+    "icon": 1,
     "image": 3,
     "label": 4,
-    "text": 1
+    "text": 2
   },
   "PublishOrderIndices": {
     "App": 0,
@@ -48,6 +49,7 @@
     "Gallery2": 8,
     "galleryTemplate2": 9,
     "Icon1": 4,
+    "Icon2": 0,
     "Image1": 5,
     "Label1": 6,
     "Label1_1": 7,
